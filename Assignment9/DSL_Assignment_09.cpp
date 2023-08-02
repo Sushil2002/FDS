@@ -19,8 +19,8 @@ class stack{
     {
         if(top==max-1)
         {
-            return 1;
             cout<<"Stack OverrFlow!"<<endl;
+            return 1;
         }
         else
         {
